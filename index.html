@@ -11,18 +11,25 @@
     <h1>KeyCode Challenge</h1>
 </header>
 <body>
+    <div id="start">
+        <h1>Press Any Key To Start</h1>
+    </div>
+
     <div id="info">
     <div class="keyInfo">
-    <h3>Key Code</h3>
+    <h3>event.code</h3>
     <pre id="keyCode"></pre>
+    <p>The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.</p>
     </div>
     <div class="keyInfo">
-    <h3>Key Key</h3>
+    <h3>event.key</h3>
     <pre id="keyKey"></pre>
+    <p>The value of the key pressed. Accounts for modifiers keys that return CAPS and alternate chars.</p>
     </div>
     <div class="keyInfo">
-    <h3>Key Which</h3>
+    <h3>event.which</h3>
     <pre id="keyWhich"></pre>
+    <p>The physical key on the keyboard. Doesn't care if you are holding a modifier like Shift.</p>
     </div>
     </div>
     
