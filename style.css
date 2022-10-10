@@ -61,7 +61,7 @@ h3{
   top: 65px;
   padding: 0;
 }
-#keyCode, #keyKey, #keyWhich {
+#keyCode, #keyKey, #keyWhich, #keyLoc {
   padding: 0;
   margin: 0;
   font-size: 25px;

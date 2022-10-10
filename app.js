@@ -1,6 +1,7 @@
 const keyCode = document.getElementById('keyCode');
 const keyKey = document.getElementById('keyKey');
 const keyWhich = document.getElementById('keyWhich');
+const keyLoc = document.getElementById('keyLoc');
 const keyInfoTabs = document.getElementById('info');
 const startCover = document.getElementById('start');
 const highlightedKey = document.getElementsByClassName('key');
@@ -10,6 +11,7 @@ var hasKeyBeenPressed = false;
 document.addEventListener('keypress', function (event){
     keyCode.innerHTML = event.code ;
     keyKey.innerHTML = event.key ;
+    keyLoc.innerHTML = event.location ;
     keyWhich.innerHTML = event.which ;
     keyInfoTabs.style.display = 'flex';
     if (hasKeyBeenPressed == true){
