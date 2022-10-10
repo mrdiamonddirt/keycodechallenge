@@ -61,6 +61,7 @@ header{
 }
 /* Keyboard */
 .keyboard {
+  position: absolute;
   width: 800px;
   height: 320px;
   background-color: #111;
@@ -68,6 +69,7 @@ header{
   border-radius: 9px;
   padding: 30px;
   color: #eee;
+  bottom: 0%;
 }
 
 .logo {
