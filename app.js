@@ -29,7 +29,7 @@ document.addEventListener("keydown", function (event) {
   
   for (i = 0; i < highlightedKey.length; i++) {
     highlightedKey[i].style.boxShadow = "";
-    // console.log(highlightedKey[i].innerHTML.trim())
+    // console.log(highlightedKey[i].innerHTML.replace(/(\n|<br>)/gm,"").split(" ").includes(event.key.toUpperCase()))
     if (highlightedKey[i].innerHTML.trim() == event.key.toUpperCase()) {
         highlightedKey[i].style.boxShadow = "0px 0px 10px #14b524";
         console.log("true");
