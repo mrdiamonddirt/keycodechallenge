@@ -7,7 +7,7 @@ const startCover = document.getElementById("start");
 const highlightedKey = document.getElementsByClassName("key");
 var hasKeyBeenPressed = false;
 
-document.addEventListener("keypress", function (event) {
+document.addEventListener("keydown", function (event) {
   keyCode.innerHTML = event.code;
   keyKey.innerHTML = event.key;
   keyLoc.innerHTML = event.location;
